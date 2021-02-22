@@ -1,3 +1,4 @@
+
 name: A workflow for my first GitHub Action
 on: push
 jobs:
@@ -5,7 +6,7 @@ jobs:
     name: My first Hello World action
     runs-on: ubuntu-latest
     steps:
-      - uses: /actions/checkout@v1
+      - uses: actions/checkout@v1
       - uses: ./actions
         with:
           MY_NAME: "Vaibhav"
